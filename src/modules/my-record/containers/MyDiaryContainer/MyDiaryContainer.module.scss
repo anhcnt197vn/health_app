@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 56px;
+  align-items: center;
+
+  h3 {
+    font-family: var(--font-base);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.10999999940395355px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 231px 231px 231px 231px;
+  grid-template-rows: 231px 231px;
+  gap: 12px;
+}
+
+.appButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 56px;
+  width: 296px;
+  margin-top: 54px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: var(--light);
+  font-family: var(--font-base);
+}

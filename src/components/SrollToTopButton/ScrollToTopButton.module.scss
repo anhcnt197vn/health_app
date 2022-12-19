@@ -1,0 +1,14 @@
+.container {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--gray400);
+  background-color: var(--light);
+
+  position: fixed;
+  top: 80%;
+  right: 5%;
+}

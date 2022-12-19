@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+}
+
+.achievementRateWrapper {
+  position: relative;
+  min-width: 540px;
+  min-height: 316px;
+  object-fit: cover;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.bodyFatPercentGraphWrapper {
+  background-color: var(--dark600);
+  position: relative;
+  flex: 1;
+
+  img {
+    object-fit: contain;
+  }
+}

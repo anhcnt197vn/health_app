@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  position: absolute;
+  font-family: var(--font-base);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,43 @@
+:root {
+  --dark600: #2E2E2E;
+  --dark500: #414141;
+  --gray400: #777777;
+  --light: #FFFFFF;
+  --primary300: #FFCC21;
+  --primary400: #FF963C;
+  --primary500: #EA6C00;
+  --secondary300: #8FE9D0;
+  --primary-linear: linear-gradient(180deg, #FFCC21 0%, #FF963C 100%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-base);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
